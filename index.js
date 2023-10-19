@@ -17,8 +17,8 @@ if (name.toLowerCase().trim() !== 'alex') {
     if (amountToWithdraw >= 0 && amountToWithdraw <= 10000) {
       let remainingBalance = money - amountToWithdraw;
       alert('Все отлично');
-      alert('Сколько я снял? ' + amountToWithdraw);
-      alert('Сколько осталось? ' + remainingBalance);
+      alert('Вы сняли ' + amountToWithdraw);
+      alert('Ваш баланс ' + remainingBalance);
     } else {
       alert('Недостаточно средств');
     }
