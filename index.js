@@ -36,7 +36,7 @@ if (klab.toLowerCase().charAt(0) !== 'a') {
   if (age >= 20 && age <= 40) {
     let money = parseInt(prompt('Сколько у вас денег?'));
 
-    if (money < 100) {
+    if (money > 100) {
       alert('Провалилай нишеброд');
     } else {
       alert('Добро пожаловать');
